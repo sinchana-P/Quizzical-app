@@ -11,23 +11,6 @@ function Intro (props) {
 function EachQuiz(props){
 
 
-
-    // function choose() {
-
-    //     console.log("option chosen!")
-    //     setMyArray(oldQuiz => oldQuiz.map(eachQ => {
-    //         return {
-    //             ...eachQ,
-    //             isHeld : !eachQ.isHeld
-    //         }
-    //     }))
-    // }
-
-
-    // const styles ={
-    //     backgroundColor: "#94D7A2"
-    // }
-
     return(
         <div className="quiz-comp" >
             <h2 className="quiz-question">{props.question}</h2>
